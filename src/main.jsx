@@ -5,6 +5,7 @@ import App from './App.jsx'
 
 import Library from './chapter_03/Library'
 import Clock from './chapter_04/Clock'
+import CommentList from './chapter_05/CommentList'
 
 // Chapter 03
 // createRoot(document.getElementById('root')).render(
@@ -14,11 +15,19 @@ import Clock from './chapter_04/Clock'
 // )
 
 // Chapter 04
+// const root = createRoot(document.getElementById('root'));
+// setInterval(() => {
+//   root.render(
+//     <StrictMode>
+//       <Clock />
+//     </StrictMode>
+//   );
+// }, 1000);
+
+// Chapter 05
 const root = createRoot(document.getElementById('root'));
-setInterval(() => {
-  root.render(
-    <StrictMode>
-      <Clock />
-    </StrictMode>
-  );
-}, 1000);
+root.render(
+  <StrictMode>
+    <CommentList />
+  </StrictMode>
+)
