@@ -14,3 +14,4 @@ Chapter 03. JSX<br>
 Chapter 04. Rendering Elements<br>
 Chapter 05. Components & Props<br>
 Chapter 06. State & Lifecycle<br>
+Chapter 07. Hooks<br>
