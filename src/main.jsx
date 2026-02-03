@@ -10,6 +10,7 @@ import NotificationList from './chapter_06/NotificationList'
 import Accommodate from './chapter_07/Accommodate'
 import ConfirmButton from './chapter_08/ConfirmButton'
 import LandingPage from './chapter_09/LandingPage'
+import AttendanceBook from './chapter_10/AttendanceBook'
 
 // Chapter 03
 // createRoot(document.getElementById('root')).render(
@@ -57,9 +58,17 @@ import LandingPage from './chapter_09/LandingPage'
 // )
 
 // Chapter 09
+// const root = createRoot(document.getElementById('root'));
+// root.render(
+//   <StrictMode>
+//     <LandingPage />
+//   </StrictMode>
+// )
+
+// Chapter 10
 const root = createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    <LandingPage />
+    <AttendanceBook />
   </StrictMode>
 )
