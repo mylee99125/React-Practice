@@ -23,3 +23,4 @@ Chapter 12. Lifting State Up<br>
 Chapter 13. Composition vs Inheritance<br>
 Chapter 14. Context<br>
 Chapter 15. Styling<br>
+Chapter 16. Mini Project

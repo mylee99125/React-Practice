@@ -55,9 +55,16 @@ import Blocks from './chapter_15/Blocks'
 // )
 
 // Chapter 08-15
-const root = createRoot(document.getElementById('root'));
-root.render(
+// const root = createRoot(document.getElementById('root'));
+// root.render(
+//   <StrictMode>
+//     <Blocks />
+//   </StrictMode>
+// )
+
+// Chapter 16
+createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Blocks />
+    <App />
   </StrictMode>
-)
+);
