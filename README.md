@@ -19,3 +19,7 @@ Chapter 08. Handling Events<br>
 Chapter 09. Conditional Rendering<br>
 Chapter 10. Lists & Keys<br>
 Chapter 11. Forms<br>
+Chapter 12. Lifting State Up<br>
+Chapter 13. Composition vs Inheritance<br>
+Chapter 14. Context<br>
+Chapter 15. Styling<br>
