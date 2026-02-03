@@ -9,6 +9,7 @@ import CommentList from './chapter_05/CommentList'
 import NotificationList from './chapter_06/NotificationList'
 import Accommodate from './chapter_07/Accommodate'
 import ConfirmButton from './chapter_08/ConfirmButton'
+import LandingPage from './chapter_09/LandingPage'
 
 // Chapter 03
 // createRoot(document.getElementById('root')).render(
@@ -48,9 +49,17 @@ import ConfirmButton from './chapter_08/ConfirmButton'
 // )
 
 // Chapter 08
+// const root = createRoot(document.getElementById('root'));
+// root.render(
+//   <StrictMode>
+//     <ConfirmButton />
+//   </StrictMode>
+// )
+
+// Chapter 09
 const root = createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    <ConfirmButton />
+    <LandingPage />
   </StrictMode>
 )
